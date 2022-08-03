@@ -14,11 +14,14 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
+    position: FIXED;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
+    top: 0px;
+    z-index: 1;
     
 }
 
@@ -79,6 +82,7 @@ body {
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-y: 70%;
+    margin-top: 50px;
 }
 .hometext h1{
     color: whitesmoke;
@@ -287,15 +291,85 @@ body {
     width: 50%;
     height: 100vh;
     padding-left: 8px;
+    overflow: hidden;
 }
 .note1{
     margin-right: 40px;
 }
 
 
+.contact{
+}
 
-
-
+#contact {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  background: rgb(118, 175, 224);
+  text-align: center;
+}
+#contact h2 {
+  margin: 0 0 15px 0;
+  color: #fff;
+  font-weight: 500;
+}
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  background: #1d6fa5;
+  color: #fff;
+  transition: 0.5s ease all;
+}
+#contact-form input::-webkit-input-placeholder,
+#contact-form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+#contact-form input:-moz-placeholder,
+#contact-form textarea:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#contact-form input::-moz-placeholder,
+#contact-form textarea::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+#contact-form input:-ms-input-placeholder,
+#contact-form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  background: #16527a;
+}
+#contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+#contact-form button {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: none;
+  color: #3498db;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 0.5s ease all;
+}
+#contact-form button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 
 
 
@@ -352,6 +426,7 @@ body {
         background-size: cover;
         background-position-y: 64%;
         text-overflow:clip;
+        margin-top: 60px;
     }
     .hometext h1{
         color: rgb(90, 88, 88);
