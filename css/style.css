@@ -240,13 +240,13 @@ body {
     background-repeat: no-repeat;
 }
 #chilly{
-    background-image: url(images/chilly.jpg);
+    background-image: url(../images/chilly.jpg);
 }
 #charr{
-    background-image: url(images/charr.jpg);
+    background-image: url(../images/charr.jpg);
 }
 #chil{
-    background-image: url(images/chilly.jpg);
+    background-image: url(../images/chilly.jpg);
 }
 #astart{
     background-image: url(../images/astart.jpg);
