@@ -77,7 +77,7 @@ body {
 .home{
     height: 90vh;
     width: 100vw;
-    background-image: url(../images/charles.jpg);
+    background-image: url(images/charles.jpg);
     background-color: rgb(118, 175, 224);
     background-repeat: no-repeat;
     background-size: 50%;
