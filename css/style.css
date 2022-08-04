@@ -298,8 +298,7 @@ body {
 }
 
 
-.contact{
-}
+
 
 #contact {
   padding: 30px 15px;
@@ -492,6 +491,9 @@ body {
     }
     .full-skill{
         display: grid;margin-left: 20%;
+    }
+    .html{
+        background-image: url(../images/html.png);
     }
     .edubox-head{
         width:80vw;
