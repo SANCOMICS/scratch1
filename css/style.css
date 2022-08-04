@@ -490,10 +490,11 @@ body {
         
     }
     .full-skill{
-        display: grid;margin-left: 20%;
+        display: grid;
+        margin-left: 20%;
     }
-    .html{
-        background-image: url(../images/html.jpg);
+    .the-skill{
+        background-image: url(images/html.jpg);
     }
     .edubox-head{
         width:80vw;
