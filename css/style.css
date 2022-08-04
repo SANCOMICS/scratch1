@@ -239,6 +239,30 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+#chilly{
+    background-image: url(../images/chilly.jpg);
+}
+#charr{
+    background-image: url(../images/charr.jpg);
+}
+#chil{
+    background-image: url(../images/chilly.jpg);
+}
+#astart{
+    background-image: url(../images/astart.jpg);
+}
+#anita{
+    background-image: url(../images/anita.jpg);
+}
+#astar{
+    background-image: url(../images/astart.jpg);
+}
+#char{
+    background-image: url(../images/charr.jpg);
+}
+#anit{
+    background-image: url(../images/anita.jpg);
+}
 
 .education{
     height: 150vh;
